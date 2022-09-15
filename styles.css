@@ -17,13 +17,12 @@ body {
     background-color: var(--lightgray);
 }
 
-.container{
+main{
     width: 100vw;
     height: 100vh;
     display: grid;
     place-items: center;
 }
-
 
 .tarjeta {
     width: 288px;
@@ -34,30 +33,25 @@ body {
     
 }
 
-
-.contenedor-qr img {
-    width: 288px;
-    height: 288px;
-    border-radius: 3%;
-    
+img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 5%;
 }
 
-.descripcion {
-    display: flex;
-    flex-direction: column;
-    font-family: "outfit";
-    
-}
-
-.descripcion h2 {
+h1 {
     font-weight: var(--grande);
     color: var(--darkblue);
     text-align: center;
     margin-bottom: 0;
+    font-size: 25px;
+    font-family: outfit;
 }
 
-.descripcion .secondtitle {
+p{
     color: var(--grayishblue);
     text-align: center;
     font-size: 15px;
+    font-family: outfit;
 }
